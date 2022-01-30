@@ -16,6 +16,8 @@ module.exports = {
             },
             {
                 // for image rules
+                test: /\.(png|svg|jpg|jpeg|gif)$/i,
+                type: 'asset/resource',
             }
         ],
     },
